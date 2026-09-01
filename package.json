@@ -1,0 +1,45 @@
+{
+  "name": "mailnation",
+  "version": "0.1.0",
+  "description": "Official Node.js SDK for the Mailnation Email API",
+  "license": "MIT",
+  "homepage": "https://docs.mailnation.id",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riyanathariq/mailnation-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riyanathariq/mailnation-js/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "openapi.yaml"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test test/client.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "mailnation",
+    "email",
+    "smtp",
+    "transactional"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.9.2"
+  }
+}
