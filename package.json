@@ -6,10 +6,10 @@
   "homepage": "https://docs.mailnation.id",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riyanathariq/mailnation-js.git"
+    "url": "git+https://github.com/mailnation-id/mailnation-js.git"
   },
   "bugs": {
-    "url": "https://github.com/riyanathariq/mailnation-js/issues"
+    "url": "https://github.com/mailnation-id/mailnation-js/issues"
   },
   "type": "module",
   "main": "./dist/index.js",
